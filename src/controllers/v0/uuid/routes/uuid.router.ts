@@ -1,9 +1,6 @@
 import { Router, Request, Response } from 'express'
 import { UUIDItem } from '../models/UUIDItem'
 import { UUIDBatch } from '../models/UUIDBatch'
-import { NextFunction } from 'connect'
-import * as AWS from '../../../../aws'
-import * as c from '../../../../config/config'
 import { createLogger } from '../../../../utils/logger'
 import { uuid, isUuid } from 'uuidv4'
 
