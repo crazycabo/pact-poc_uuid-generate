@@ -27,8 +27,6 @@ phases:
       # node: 13
       # name: version
     commands:
-      - echo set current directory to uuid-generate
-      - cd uuid-generate
       - echo Build Node dependencies...
       - npm i
   pre_build:
